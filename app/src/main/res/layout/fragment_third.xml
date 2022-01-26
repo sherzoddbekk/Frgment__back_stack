@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#784585"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Third Fragment "
+            android:textColor="@color/teal_200"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send to ...." />
+    </LinearLayout>
+</FrameLayout>
